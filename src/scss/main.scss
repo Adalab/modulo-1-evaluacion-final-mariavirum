@@ -1,9 +1,27 @@
 @import 'core/variables';
 @import 'core/reset';
-@import 'components/code';
-@import 'layout/page';
 @import 'layout/header';
+@import 'layout/hero';
+@import 'layout/tips';
+@import 'layout/reasons';
 @import 'layout/footer';
 @import 'pages/index';
 
 
+//HEADER//
+
+.header__container{
+    background-color: #0271bc;
+    width: 44px;
+    height: 44px;
+    margin: 0 94px 240px 0;
+    padding: 15px 14px;
+    position: absolute;
+}
+
+//HERO//
+
+.hero__container {
+    width: 100%;
+    
+}
