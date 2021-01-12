@@ -41,6 +41,7 @@
 }
 
 
+
 //ANONYMOUS SECTION - MAIN//
 
 
@@ -58,14 +59,14 @@ transform:translateY(-120%);
         /*background-color: blue;*/
         width: 100%;
         text-align: center;
-        flex-wrap:wrap;
+        /*flex-wrap:wrap;*/
          
 
     }
     
 .anonymous-container__title1--1{
         color: white;
-        font-family: RobotoSlab-Bold;
+        font-family: RobotoSlab;
         font-size: 42px;
         font-weight: bold;
         font-stretch: normal;
@@ -108,3 +109,80 @@ transform:translateY(-120%);
 }
 
 //LOOKING SECTION - MAIN//
+
+.looking-container{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px 15px 45px 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.looking-container__title1{
+    padding-bottom: 1px;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    line-height: 30px;
+    color: #8ccbea;
+
+}
+
+.looking-container__title2{
+    padding-bottom: 15px;
+    
+}
+
+.looking-container__text{
+    padding-bottom: 30px;
+    
+}
+
+.looking-container__link{
+    width: 76px;
+    height: 45px;
+    border-radius: 22.5px;
+    border: solid 2px #f26002;
+    text-align: center;
+    
+}
+
+
+
+
+.looking-container__link--item {
+    font-family: Roboto;
+    font-size: 20px;
+    color: #f26002;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 45px;
+    letter-spacing: normal;
+    padding:15px;
+    text-decoration: none;
+    &:hover{
+        animation-name: go;
+        animation-duration: 0.8s;
+        animation-iteration-count: 1;
+            @keyframes go {
+                /*from{
+                     background-color: white;
+                }*/
+        
+                to{
+                
+                    border-radius: 22.5px;
+                    border: solid 1px #f26002;
+                    background-color: black;
+                    color: white;
+                }
+
+
+                }
+        
+            }
+   
+    }
+
+    
