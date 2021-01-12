@@ -190,6 +190,11 @@ transform:translateY(-120%);
         padding: 30px 15px 60px 15px;
         background-color: #eff9ff;
         text-align: center;
+        /*display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;*/
+
     }
 
 .reasons-container__bigtitle{
@@ -267,7 +272,7 @@ transform:translateY(-120%);
     color: white;
 }
 
-.reasons-container__link--bottom{
+.reasons-container__link--buttom{
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -292,6 +297,20 @@ transform:translateY(-120%);
         }
     }
     }
+}
+
+.reasons-container__link2{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 22.5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    transform: translate(140px,40px);
 }
 
 
