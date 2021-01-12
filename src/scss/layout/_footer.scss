@@ -52,8 +52,21 @@
 }
 
 @media all and (min-width:768px){
+    .footer-container{
+        padding: 45px 39px 45px 39px;
+        flex-direction:row-reverse;
+        align-items:flex-start;
+        justify-content: space-between;
+        order: unset;
 
-    
+    }
+    .footer-container__block2 {
+        padding-top: 0;
+    }
+    .footer-container__copy {
+        padding-top: 0;
+    }
+
 }
 
 
