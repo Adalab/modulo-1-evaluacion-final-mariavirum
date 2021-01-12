@@ -9,7 +9,7 @@
 
 .looking-container__title1 {
   padding-bottom: 1px;
-  font-family: Roboto;
+  font-family: $font-text;
   font-size: 14px;
   line-height: 30px;
   font-weight: normal;
@@ -22,7 +22,7 @@
 }
 
 .looking-container__title2 {
-  font-family: Roboto Slab;
+  font-family: $font-title;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -34,7 +34,7 @@
 
 .looking-container__text {
   padding-bottom: 30px;
-  font-family: Roboto;
+  font-family: $font-text;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -48,14 +48,14 @@
   width: 76px;
   height: 45px;
   border-radius: 22.5px;
-  border: solid 2px #f26002;
+  border: solid 2px $color-button2;
   text-align: center;
 }
 
 .looking-container__link--item {
-  font-family: Roboto;
+  font-family: $font-text;
   font-size: 20px;
-  color: #f26002;
+  color: $color-button2;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -70,9 +70,9 @@
     @keyframes go {
       to {
         border-radius: 22.5px;
-        border: solid 1px #f26002;
+        border: solid 1px $color-button2;
         background-color: black;
-        color: white;
+        color: $color-link;
       }
     }
   }

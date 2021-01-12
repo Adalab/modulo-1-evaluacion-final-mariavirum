@@ -13,8 +13,8 @@
 }
 
 .anonymous-container__title1--1 {
-  color: white;
-  font-family: Roboto Slab;
+  color:$color-link;
+  font-family: $font-title;
   font-size: 42px;
   font-weight: bold;
   font-stretch: normal;
@@ -28,8 +28,8 @@
 }
 
 .anonymous-container__title2--2 {
-  color: white;
-  font-family: Roboto;
+  color: $color-link;
+  font-family: $font-text;
   font-size: 16px;
   padding-bottom: 45px;
   font-weight: normal;
@@ -40,7 +40,7 @@
 }
 
 .anonymous-container__link {
-  background-color: white;
+  background-color:$color-link;
   width: 45px;
   height: 45px;
   border-radius: 22.5px;

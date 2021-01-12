@@ -11,8 +11,8 @@
 }
 
 .footer-menu__items{
-    color:white;
-    font-family: Roboto;
+    color:$color-link;
+    font-family: $font-text;
     font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
@@ -29,25 +29,26 @@
     list-style: none;
 }
 
-.footer-container__bock1{
+.footer-container__block1{
     
 }
 
-.footer-container__bock2 {
+.footer-container__block2 {
     padding-top: 30px;
 }
 
 .footer-container__copy {
     padding-top: 30px;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    font-family: Roboto;
+    font-family: $font-text;
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 30px;
     letter-spacing: normal;
-    color:white;
-  
+    color:$color-link;
 }
+
+
