@@ -116,6 +116,7 @@ transform:translateY(-120%);
     padding: 30px 15px 45px 15px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .looking-container__title1{
@@ -190,10 +191,10 @@ transform:translateY(-120%);
         padding: 30px 15px 60px 15px;
         background-color: #eff9ff;
         text-align: center;
-        /*display: flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;*/
+        justify-content: center;
 
     }
 
@@ -285,8 +286,8 @@ transform:translateY(-120%);
     text-decoration: none;
     &:hover {
     animation-name: morereasons;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
+    animation-duration: 0.5s;
+    animation-iteration-count: 4;
 
     @keyframes morereasons {
         from {
@@ -308,10 +309,61 @@ transform:translateY(-120%);
     display:flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 0;
-    transform: translate(140px,40px);
+    transform: translateY(180%);
+    
 }
 
+//FOOTER//
 
+.footer-container{
+    width: 100%;
+    background-color: #304268;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 60px;
+}
 
+.footer-menu__items{
+    color:white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.footer-menu__list{
+    list-style: none;
+}
+
+.footer-container__bock1{
+    
+}
+
+.footer-container__bock2{
+    padding-top: 30px;
+}
+
+.footer-container__copy{
+    padding-top: 30px;
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    color:white;
+  
+}
