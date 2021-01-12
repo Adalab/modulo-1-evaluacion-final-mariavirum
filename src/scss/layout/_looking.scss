@@ -83,3 +83,29 @@
             }  
      }
    }
+
+   @media all and (min-width: 768px) {
+    .looking-container{
+        padding: 30px 39px 60px 39px;
+    }
+    .looking-container__title2{
+        padding-bottom: 30px;
+    }
+    .looking-container__link{
+        width: 91px;
+    }
+
+
+  }
+  
+  @media all and (min-width: 1200px) {
+    .looking-container{
+        padding: 60px 275px 60px 275px;
+    }
+
+    .looking-container__link{
+        width: 160px;
+    }
+  }
+  
+
