@@ -49,6 +49,12 @@
     color:$color-link;
 }
 
+.fas {
+    content: "\f004";
+    color: $color-button2;
+    padding: 1px;
+}
+
 @media all and (min-width:768px){
     .footer-container{
         padding: 45px 39px 45px 39px;
