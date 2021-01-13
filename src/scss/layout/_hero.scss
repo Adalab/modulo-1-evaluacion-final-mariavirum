@@ -4,3 +4,10 @@
   background-image: url(../images/cover.jpg);
   background-position: top center;
 }
+
+@media all and (min-width: 768px) {
+  .hero__container {
+    background-position: top center;
+    background-size: cover;
+  }
+}
