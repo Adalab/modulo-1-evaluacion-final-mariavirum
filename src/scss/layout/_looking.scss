@@ -61,20 +61,12 @@
   font-style: normal;
   line-height: 45px;
   letter-spacing: normal;
-  padding: 15px;
+  padding: 9px 22px 9px 22px;
   text-decoration: none;
+  transition: color easer size 1s;
   &:hover {
-    animation-name: go;
-    animation-duration: 0.8s;
-    animation-iteration-count: 1;
-    @keyframes go {
-      to {
-        border-radius: 22.5px;
-        border: solid 1px $color-button2;
-        background-color: black;
-        color: $color-link;
-      }
-    }
+    color: #304268;
+    font-size: 30px;
   }
 }
 
@@ -88,6 +80,9 @@
   .looking-container__link {
     width: 91px;
   }
+  .looking-container__link--item {
+    padding: 10px 29px 10px 29px;
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -97,5 +92,8 @@
 
   .looking-container__link {
     width: 160px;
+  }
+  .looking-container__link--item {
+    padding: 10px 64px 10px 64px;
   }
 }
