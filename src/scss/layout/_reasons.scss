@@ -72,8 +72,8 @@
   height: 45px;
   border-radius: 22.5px;
   background-color: $color-button2;
-  display: inline-block;
-  text-align: center;
+  /*display: inline-block;
+  text-align: center;*/
   color: $color-link;
 }
 
@@ -89,7 +89,7 @@
   color: $color-link;
   text-decoration: none;
   padding: 10px 25px 10px 25px;
-  transition: color ease 0.5s;
+  transition: color ease 0.8s;
   &:hover {
     color: #304268;
   }
@@ -112,7 +112,7 @@
 
     @keyframes up {
       from {
-        background-position: center;
+        /*background-position: center;*/
         background-color: $color-button2;
         transform: scale(1);
       }
@@ -129,6 +129,23 @@
 .reasons-container__link2--buttom2 {
   padding: 9px;
   border-radius: 22.5px;
+}
+
+.newsection {
+  width: 100%;
+  background-color: $color-button2;
+  color: $color-link;
+  display: none;
+}
+
+.newsection-container-title {
+  text-align: center;
+}
+
+.newsection-container-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 @media all and (min-width: 768px) {
@@ -170,6 +187,10 @@
   }
   .reasons-container__link--buttom {
     padding: 10px 40px 10px 40px;
+  }
+
+  .newsection {
+    display: block;
   }
 }
 
